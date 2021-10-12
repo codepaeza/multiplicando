@@ -47,7 +47,7 @@ export default {
     };
   },
   created() {
-    let apiURL = "https://multiplicando-com.herokuapp.com/api";
+    let apiURL = "https://secure-ocean-09967.herokuapp.com/api";
     axios
       .get(apiURL)
       .then((res) => {
@@ -59,7 +59,7 @@ export default {
   },
   methods: {
     deleteMultiplicacion(id) {
-      let apiURL = `https://multiplicando-com.herokuapp.com/api/delete-multiplicacion/${id}`;
+      let apiURL = `https://secure-ocean-09967.herokuapp.com/api/delete-multiplicacion/${id}`;
       let indexOfArrayItem = this.Multiplicaciones.findIndex((i) => i._id === id);
 
       if (window.confirm("Realmente quiere eliminar el registro?")) {

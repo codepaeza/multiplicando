@@ -7,5 +7,5 @@
     
 module.exports = {
   db:
-  "mongodb+srv://edwinpaez:Edw1n2021@cluster0.aytkl.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",  
+  "mongodb+srv://<usuario>:<contraseña>@cluster0.aytkl.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",  
 };

@@ -8,7 +8,7 @@ let express = require("express"),
 mongoose.Promise = global.Promise;
 mongoose
    .connect(
-    "mongodb+srv://edwinpaez:Edw1n2021@cluster0.aytkl.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "mongodb+srv://<usuario>:<contraseña>@cluster0.aytkl.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,

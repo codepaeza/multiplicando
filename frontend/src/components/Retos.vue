@@ -128,7 +128,7 @@ import axios from "axios";
      },
 
       createMultiplicacion() {
-        let apiURL = "https://multiplicando-com.herokuapp.com/api/create-multiplicacion";
+        let apiURL = "https://secure-ocean-09967.herokuapp.com/api/create-multiplicacion";
 
         axios
          .post(apiURL, this.multiplicacion)

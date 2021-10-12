@@ -61,7 +61,7 @@ export default {
     };
   },
   created() {
-    let apiURL = `https://multiplicando-com.herokuapp.com/api/edit-multiplicacion/${this.$route.params.id}`;
+    let apiURL = `https://secure-ocean-09967.herokuapp.com/api/edit-multiplicacion/${this.$route.params.id}`;
 
     axios.get(apiURL).then((res) => {
       this.multiplicacion = res.data;
@@ -69,7 +69,7 @@ export default {
   },
   methods: {
     handleUpdateForm() {
-      let apiURL = `https://multiplicando-com.herokuapp.com/api/update-multiplicacion/${this.$route.params.id}`;
+      let apiURL = `https://secure-ocean-09967.herokuapp.com/api/update-multiplicacion/${this.$route.params.id}`;
 
       axios
         .put(apiURL, this.multiplicacion)
